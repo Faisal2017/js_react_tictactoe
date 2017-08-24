@@ -1,0 +1,29 @@
+for(var i=0; i<9; i+=3){
+  array[i], array[i+1], array[i+2]
+}
+// row logic
+
+for(var i=0; i<9; i+=1){
+  array[i], array[i+3], array[i+6]
+}
+//column logic 
+
+
+const ifColumnWin = function(tileArray){
+
+  let counterX = 0;
+  let counterO = 0;
+
+  for(let rowIndex in tileArray){
+    for(let tile of tileArray[rowIndex]){
+      console.log(typeof tile)
+      if(tile === "X") counterX++;
+      if(tile === "O") counterO++;
+    }
+    if(counterX === tileArray.length) return xWins;
+    if(counterO === tileArray.length) return oWins;
+  }
+    counterX = 0;
+    counterO = 0;
+  return;
+}

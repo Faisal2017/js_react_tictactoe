@@ -1,0 +1,14 @@
+.div-rows {
+  display: flex;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid green;
+  font-size: 90px;
+  color: white;
+  background-color: black; 
+}

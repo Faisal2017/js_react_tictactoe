@@ -1,0 +1,19 @@
+{
+  "name": "express_backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha src/models/specs",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0"
+  },
+  "description": ""
+}
